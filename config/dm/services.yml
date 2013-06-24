@@ -1,0 +1,13 @@
+parameters:
+
+  less_compiler.class:            dmLessCompilerService
+  less_compiler.options:
+    compiler_class:       dmLesscLessCompiler
+    less_finder_class:    dmLessFileFinder
+
+
+services:
+  less_compiler:
+    class:                    %less_compiler.class%
+    shared:                   true
+    arguments:                [ @service_container, @event_log, @console_log, %less_compiler.options% ]

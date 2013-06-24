@@ -1,0 +1,67 @@
+## Compile
+
+'Nothing to compile.': ''
+'Force compile': ''
+'Write empty files': ''
+'Preserve comments': ''
+'Attempting to compile %count% LESS files...': ''
+'Skipped - empty output.': ''
+'Skipped - empty source.': ''
+'Skipped - already compiled.': ''
+'Compiled.': ''
+'COMPILER ERROR: %message%': ''
+'UNEXPECTED ERROR: %message%': ''
+'Compiled files': ''
+'Not compiled': ''
+'LESS files compiled, %errors% errors': ''
+'Compile LESS': ''
+
+## Clear cache task
+
+'Attempting to clear LESS compilation cache...': ''
+'Nothing to clear, compilation cache is not used.': ''
+'Removed: %cache%': ''
+'Not removed: %cache%': ''
+'LESS compilation cache cleared.': ''
+'LESS compilation cache partially cleared, %count% left.': ''
+
+## Delete CSS files
+
+'Deleting compiled CSS files for project with settings:': ''
+'Attempting to delete %count% CSS files...': ''
+'Compiled CSS files are deleted, %errors% errors': ''
+'Deleted CSS': ''
+
+## Delete LESS files
+
+'Deleting source LESS files for project with settings:': ''
+'Attempting to delete %count% LESS files...': ''
+'LESS file %file% could not be deleted': ''
+'LESS files are deleted, %errors% errors': ''
+'Deleted LESS': ''
+'The following %count% LESS files will be deleted:': ''
+'WARNING!!!': ''
+'This task should be used only on production server.'
+'The task will delete LESS source files from project.'
+'Please create backup of your source files.'
+'This action can not be undone.'
+'Are you shore?'
+'Task is not executed - no LESS file is deleted.'
+
+## Misc
+
+'ALL': ''
+'YES': ''
+'NO': ''
+'Nothing to delete.': ''
+'Plugins': ''
+'Enabled plugins only': ''
+'Inner directories': ''
+'Max depth': ''
+'Deleted:': ''
+'CSS file %file% could not be deleted': ''
+'Skipped (not exist):': ''
+'Status:': ''
+'Deleted files': ''
+'Skipped files': ''
+'Not deleted': ''

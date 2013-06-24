@@ -1,0 +1,4 @@
+default:
+  dmLessLibraryPlugin:
+    inner_dirs: [css, lib, other, others]       # directories in web dir of plugins which less files residue
+    search_max_depth: 100000                    # max depth of recursive search for less files in directories
